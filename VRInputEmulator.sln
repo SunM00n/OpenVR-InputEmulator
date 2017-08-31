@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_vrinputemulator", "lib_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_vrinputemulator", "driver_vrinputemulator\driver_vrinputemulator.vcxproj", "{AF6FBE95-527D-499B-9ABD-3A47E9E84C8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client_keyboard", "client_keyboard\client_keyboard.vcxproj", "{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05AC9994-2B63-4DE5-ABF3-95CE346F3A64} = {05AC9994-2B63-4DE5-ABF3-95CE346F3A64}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +36,14 @@ Global
 		{AF6FBE95-527D-499B-9ABD-3A47E9E84C8A}.Release|x64.Build.0 = Release|x64
 		{AF6FBE95-527D-499B-9ABD-3A47E9E84C8A}.Release|x86.ActiveCfg = Release|Win32
 		{AF6FBE95-527D-499B-9ABD-3A47E9E84C8A}.Release|x86.Build.0 = Release|Win32
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Debug|x64.ActiveCfg = Debug|x64
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Debug|x64.Build.0 = Debug|x64
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Debug|x86.ActiveCfg = Debug|Win32
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Debug|x86.Build.0 = Debug|Win32
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Release|x64.ActiveCfg = Release|x64
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Release|x64.Build.0 = Release|x64
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Release|x86.ActiveCfg = Release|Win32
+		{28045873-0CCE-4A30-96CB-7C7F8D9BEC15}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
